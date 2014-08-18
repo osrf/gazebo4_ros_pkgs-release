@@ -1,0 +1,13 @@
+Source: ros-hydro-gazebo-plugins
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libgazebo4-dev, ros-hydro-angles, ros-hydro-catkin, ros-hydro-cv-bridge, ros-hydro-diagnostic-updater, ros-hydro-driver-base, ros-hydro-dynamic-reconfigure, ros-hydro-gazebo4-msgs, ros-hydro-geometry-msgs, ros-hydro-image-transport, ros-hydro-message-generation, ros-hydro-nav-msgs, ros-hydro-nodelet, ros-hydro-pcl-conversions, ros-hydro-polled-camera, ros-hydro-rosconsole, ros-hydro-roscpp, ros-hydro-rosgraph-msgs, ros-hydro-rospy, ros-hydro-sensor-msgs, ros-hydro-std-srvs, ros-hydro-tf, ros-hydro-tf2-ros, ros-hydro-trajectory-msgs, ros-hydro-urdf
+Homepage: http://gazebosim.org/wiki/Tutorials#ROS_Integration
+Standards-Version: 3.9.2
+
+Package: ros-hydro-gazebo4-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgazebo4-dev, ros-hydro-angles, ros-hydro-cv-bridge, ros-hydro-driver-base, ros-hydro-dynamic-reconfigure, ros-hydro-gazebo4-msgs, ros-hydro-geometry-msgs, ros-hydro-image-transport, ros-hydro-message-generation, ros-hydro-nav-msgs, ros-hydro-nodelet, ros-hydro-pcl-conversions, ros-hydro-polled-camera, ros-hydro-rosconsole, ros-hydro-roscpp, ros-hydro-rosgraph-msgs, ros-hydro-rospy, ros-hydro-sensor-msgs, ros-hydro-std-srvs, ros-hydro-tf, ros-hydro-tf2-ros, ros-hydro-trajectory-msgs, ros-hydro-urdf
+Conflicts: ros-hydro-gazebo-plugins, ros-hydro-gazebo-plugins-current, ros-hydro-gazebo-plugins3, ros-hydro-gazebo-plugins4-prerelease
+Description: Robot-independent Gazebo plugins for sensors, motors and dynamic reconfigurable components.
