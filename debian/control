@@ -1,0 +1,13 @@
+Source: ros-indigo-gazebo-ros
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libgazebo4-dev, libtinyxml-dev, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-dynamic-reconfigure, ros-indigo-gazebo4-msgs, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-roscpp, ros-indigo-rosgraph-msgs, ros-indigo-roslib, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-tf
+Homepage: http://gazebosim.org/wiki/Tutorials#ROS_Integration
+Standards-Version: 3.9.2
+
+Package: ros-indigo-gazebo4-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgazebo4-dev, libtinyxml-dev, ros-indigo-dynamic-reconfigure, ros-indigo-gazebo4-msgs, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-roscpp, ros-indigo-rosgraph-msgs, ros-indigo-roslib, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-tf
+Conflicts: ros-indigo-gazebo-ros, ros-indigo-gazebo-ros-current, ros-indigo-gazebo-ros3, ros-indigo-gazebo-ros4-prerelease
+Description: Provides ROS plugins that offer message and service publishers for interfacing with Gazebo through ROS. Formally simulator_gazebo/gazebo
