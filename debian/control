@@ -1,0 +1,13 @@
+Source: ros-indigo-gazebo-plugins
+Section: misc
+Priority: extra
+Maintainer: John Hsu <hsu@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libgazebo4-dev, ros-indigo-angles, ros-indigo-camera-info-manager, ros-indigo-catkin, ros-indigo-cv-bridge, ros-indigo-diagnostic-updater, ros-indigo-driver-base, ros-indigo-dynamic-reconfigure, ros-indigo-gazebo4-msgs, ros-indigo-geometry-msgs, ros-indigo-image-transport, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-nodelet, ros-indigo-polled-camera, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-rosgraph-msgs, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-std-srvs, ros-indigo-tf, ros-indigo-tf2-ros, ros-indigo-trajectory-msgs, ros-indigo-urdf
+Homepage: http://gazebosim.org/wiki/Tutorials#ROS_Integration
+Standards-Version: 3.9.2
+
+Package: ros-indigo-gazebo4-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgazebo4-dev, ros-indigo-angles, ros-indigo-camera-info-manager, ros-indigo-cv-bridge, ros-indigo-driver-base, ros-indigo-dynamic-reconfigure, ros-indigo-gazebo4-msgs, ros-indigo-gazebo4-ros, ros-indigo-geometry-msgs, ros-indigo-image-transport, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-nodelet, ros-indigo-polled-camera, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-rosgraph-msgs, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-std-srvs, ros-indigo-tf, ros-indigo-tf2-ros, ros-indigo-trajectory-msgs, ros-indigo-urdf
+Conflicts: ros-indigo-gazebo-plugins, ros-indigo-gazebo-plugins-current, ros-indigo-gazebo-plugins3, ros-indigo-gazebo-plugins4-prerelease
+Description: Robot-independent Gazebo plugins for sensors, motors and dynamic reconfigurable components.
